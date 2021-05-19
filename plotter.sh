@@ -2,7 +2,7 @@
 
 while [ ! -f /root/stoprun ]
 do
-  chia plots create -r 2 -t /tmp -d /plots
+  chia plots create -r 4 -t /tmp -d /plots
 done
 rm -f /root/stoprun
 echo Stopfile found, exiting
